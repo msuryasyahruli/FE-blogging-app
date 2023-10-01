@@ -7,8 +7,8 @@ This is a simple blogging website for creating articles. Here you can create, vi
 
 ## Acknowledgements
 
- - [Backend](https://github.com/msuryasyahruli/BE-blogging-app.git)
  - [Frontend](https://github.com/msuryasyahruli/FE-blogging-app.git)
+ - [Backend](https://github.com/msuryasyahruli/BE-blogging-app.git)
 
 
 ## Environment Variables
