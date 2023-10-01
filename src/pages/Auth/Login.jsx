@@ -20,7 +20,7 @@ const Login = () => {
 
   const submit = (e) => {
     axios
-      .post(`http://localhost:3000/blogging/api/users/login`, data)
+      .post(`${process.env.REACT_APP_API_KEY}/blogging/api/users/login`, data)
       .then((res) => {
         // console.log(res.data.data.token);
         localStorage.setItem("token", res.data.data.token);
