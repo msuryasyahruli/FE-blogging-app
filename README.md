@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a simple blogging website for creating articles. Here you can create articles, view, edit and delete articles that have been created.
+This is a simple blogging website for creating articles. Here you can create, view, edit and delete articles that have been created.
 
 
 ## Acknowledgements
