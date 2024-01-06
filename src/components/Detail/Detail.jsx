@@ -22,7 +22,9 @@ const Detail = () => {
     <>
       <div className="container">
         <div className="">
-          <Link to="/landing"><span style={{fontSize: 20}}>←</span>Back</Link>
+          <Link to="/landing">
+            <span style={{ fontSize: 20 }}>←</span>Back
+          </Link>
           {/* <div
             className="w-100 pl-3 pt-2 mb-3 mt-3"
             style={{
@@ -37,7 +39,7 @@ const Detail = () => {
             style={{ borderRadius: 5, boxShadow: "0 0 4px 0 #00000025" }}
           >
             <p style={{ fontWeight: 600, fontSize: 20 }}>{article.title}</p>
-            <p>{article.article}</p>
+            <p style={{whiteSpace: "pre-line"}}>{article.article}</p>
           </div>
         </div>
       </div>

@@ -86,7 +86,7 @@ const LeftColumn = () => {
             backgroundColor: "#fff",
           }}
         >
-          add new post
+          ADD NEW POST
         </Link>
         <hr />
         <div

@@ -26,7 +26,11 @@ const Login = () => {
         localStorage.setItem("token", res.data.data.token);
         localStorage.setItem("id_user", res.data.data.id_user);
         Swal.fire("Success", "Login success", "success");
-        navigate("/landing");
+        // navigate("/landing");
+        setTimeout(function () {
+          navigate("/landing");
+          window.location.reload();
+        }, 1000);
       })
       .catch((err) => {
         Swal.fire({

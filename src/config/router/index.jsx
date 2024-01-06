@@ -17,7 +17,7 @@ const Router = () => {
             path="/"
             element={<Navigate to="/login" replace="true"></Navigate>}
           />
-          <Route path="/landing" element={<Landing />} />
+          <Route path="/landing" element={token ? <Landing /> : <Navigate to="/login" replace="true"></Navigate>} />
           <Route path="/login" element={!token ? <Login /> : <Navigate to="/landing" replace="true"></Navigate>} />
           <Route path="/register" element={<Register />} />
           <Route path="/detail/:id" element={<Detail />} />

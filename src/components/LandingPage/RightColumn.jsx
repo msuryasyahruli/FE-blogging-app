@@ -10,7 +10,7 @@ const RightColumn = () => {
     setTimeout(function () {
       navigate("/login");
     }, 1000)
-    
+    window.location.reload();
   };
 
   const id_user = localStorage.getItem("id_user");
@@ -144,7 +144,6 @@ const RightColumn = () => {
                       className="title"
                       style={{
                         fontSize: 16,
-                        lineHeight: 1,
                         fontWeight: 500,
                         textAlign: "start",
                       }}
@@ -177,7 +176,7 @@ const RightColumn = () => {
             aria-labelledby="v-pills-settings-tab"
           >
             <div
-              className="w-100 p-3 mb-3"
+              className="w-100 p-4 mb-3"
               style={{ borderRadius: 5, boxShadow: "0 0 4px 0 #00000025" }}
             >
               <div className="p-1">
